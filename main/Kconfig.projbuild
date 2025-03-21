@@ -1,0 +1,33 @@
+menu "Wi-Fi Configuration"
+    config WIFI_SSID
+        string "Wi-Fi SSID"
+        default "RPE-IoT"
+        help
+            Enter your Wi-Fi SSID
+
+    config WIFI_PASSWORD
+        string "Wi-Fi Password"
+        default "I0TPasS25"
+        help
+            Enter your Wi-Fi password
+endmenu
+
+menu "MQTT Configuration"
+    config MQTT_BROKER_URI
+        string "MQTT Broker URI"
+        default "mqtt://192.168.0.100"
+        help
+            Enter the full URI of the MQTT broker
+
+    config MQTT_USER
+        string "MQTT Username"
+        default ""
+        help
+            Enter your MQTT username
+
+    config MQTT_PASSWORD
+        string "MQTT Password"
+        default ""
+        help
+            Enter your MQTT password
+endmenu

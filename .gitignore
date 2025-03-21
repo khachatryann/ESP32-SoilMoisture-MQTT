@@ -1,0 +1,32 @@
+# Build and configuration files
+build/
+sdkconfig
+sdkconfig.old
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+
+# Compiled binaries
+*.bin
+*.elf
+*.map
+*.hex
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# VS Code and other IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# PlatformIO (if used)
+.pio/
+
+# System files (Mac/Linux/Windows)
+.DS_Store
+._*
+Thumbs.db
